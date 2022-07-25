@@ -1,0 +1,3 @@
+package pifo;
+
+@license(LGPL);

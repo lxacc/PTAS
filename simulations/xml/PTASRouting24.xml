@@ -1,0 +1,206 @@
+<filteringDatabases>
+	<filteringDatabase id="switchA">
+	    <static>
+	        <forward>
+	        	<!-- Forward packets addressed to robotArm to switchB -->
+	        	<individualAddress macAddress="00-00-00-00-01-01" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-02" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-03" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-04" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-05" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-06" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-07" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-08" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-09" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-10" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-11" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-12" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-13" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-14" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-15" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-16" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-17" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-18" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-19" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-20" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-21" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-22" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-23" port="24" />
+	        	<individualAddress macAddress="00-00-00-00-01-24" port="24" />
+	        	<!-- Forward packets addressed to backupServer to switchB -->
+	        	<individualAddress macAddress="00-00-00-00-02-02" port="24" />
+	        </forward>
+	    </static>
+	</filteringDatabase>
+	<filteringDatabase id="switchB">
+	    <static>
+	        <forward>
+	        	<!-- Forward packets addressed to robotArm to switchB -->
+	        	<individualAddress macAddress="00-00-00-00-01-01" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-02" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-03" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-04" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-05" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-06" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-07" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-08" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-09" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-10" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-11" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-12" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-13" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-14" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-15" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-16" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-17" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-18" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-19" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-20" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-21" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-22" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-23" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-24" port="2" />
+	        	<!-- Forward packets addressed to backupServer to switchB -->
+	        	<individualAddress macAddress="00-00-00-00-02-02" port="2" />
+	        </forward>
+	    </static>
+	</filteringDatabase>	
+	<filteringDatabase id="switchC">
+	    <static>
+	        <forward>
+	        	<!-- Forward packets addressed to robotArm to switchB -->
+	        	<individualAddress macAddress="00-00-00-00-01-01" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-02" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-03" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-04" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-05" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-06" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-07" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-08" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-09" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-10" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-11" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-12" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-13" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-14" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-15" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-16" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-17" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-18" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-19" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-20" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-21" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-22" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-23" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-24" port="2" />
+	        	<!-- Forward packets addressed to backupServer to switchB -->
+	        	<individualAddress macAddress="00-00-00-00-02-02" port="2" />
+	        </forward>
+	    </static>
+	</filteringDatabase>		
+	<filteringDatabase id="switchD">
+	    <static>
+	        <forward>
+	        	<!-- Forward packets addressed to robotArm to switchB -->
+	        	<individualAddress macAddress="00-00-00-00-01-01" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-02" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-03" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-04" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-05" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-06" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-07" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-08" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-09" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-10" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-11" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-12" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-13" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-14" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-15" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-16" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-17" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-18" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-19" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-20" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-21" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-22" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-23" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-24" port="2" />
+	        	<!-- Forward packets addressed to backupServer to switchB -->
+	        	<individualAddress macAddress="00-00-00-00-02-02" port="2" />
+	        </forward>
+	    </static>
+	</filteringDatabase>		
+	<filteringDatabase id="switchE">
+	    <static>
+	        <forward>
+	        	<!-- Forward packets addressed to robotArm to switchB -->
+	        	<individualAddress macAddress="00-00-00-00-01-01" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-02" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-03" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-04" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-05" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-06" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-07" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-08" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-09" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-10" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-11" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-12" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-13" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-14" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-15" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-16" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-17" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-18" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-19" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-20" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-21" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-22" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-23" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-24" port="2" />
+	        	<!-- Forward packets addressed to backupServer  -->
+	        	<individualAddress macAddress="00-00-00-00-02-02" port="2" />
+	        </forward>
+	    </static>
+	</filteringDatabase>		
+	<filteringDatabase id="switchF">
+	    <static>
+	        <forward>
+	        	<individualAddress macAddress="00-00-00-00-01-01" port="0" />
+	        	<individualAddress macAddress="00-00-00-00-01-02" port="1" />
+	        	<individualAddress macAddress="00-00-00-00-01-03" port="2" />
+	        	<individualAddress macAddress="00-00-00-00-01-04" port="3" />
+	        	<individualAddress macAddress="00-00-00-00-01-05" port="4" />
+	        	<individualAddress macAddress="00-00-00-00-01-06" port="5" />
+	        	<individualAddress macAddress="00-00-00-00-01-07" port="6" />
+	        	<individualAddress macAddress="00-00-00-00-01-08" port="7" />
+	        	<individualAddress macAddress="00-00-00-00-01-09" port="8" />
+	        	<individualAddress macAddress="00-00-00-00-01-10" port="9" />
+	        	<individualAddress macAddress="00-00-00-00-01-11" port="10" />
+	        	<individualAddress macAddress="00-00-00-00-01-12" port="11" />
+	        	<individualAddress macAddress="00-00-00-00-01-13" port="12" />
+	        	<individualAddress macAddress="00-00-00-00-01-14" port="13" />
+	        	<individualAddress macAddress="00-00-00-00-01-15" port="14" />
+	        	<individualAddress macAddress="00-00-00-00-01-16" port="15" />
+	        	<individualAddress macAddress="00-00-00-00-01-17" port="16" />
+	        	<individualAddress macAddress="00-00-00-00-01-18" port="17" />
+	        	<individualAddress macAddress="00-00-00-00-01-19" port="18" />
+	        	<individualAddress macAddress="00-00-00-00-01-20" port="19" />
+	        	<individualAddress macAddress="00-00-00-00-01-21" port="20" />
+	        	<individualAddress macAddress="00-00-00-00-01-22" port="21" />
+	        	<individualAddress macAddress="00-00-00-00-01-23" port="22" />
+	        	<individualAddress macAddress="00-00-00-00-01-24" port="23" />
+	        	
+	        	<individualAddress macAddress="00-00-00-00-02-02" port="25" />
+	        </forward>
+	    </static>
+	</filteringDatabase>
+	<filteringDatabase id="switchG">
+	    <static>
+	        <forward>
+	        	<individualAddress macAddress="00-00-00-00-02-02" port="1" />
+	        </forward>
+	    </static>
+	</filteringDatabase>
+</filteringDatabases>

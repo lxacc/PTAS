@@ -40,5 +40,12 @@ The current version of the PTAS module has been tested with OMNeT++ version 5.5.
 ```
 
 ## Create a Project in OMNeT++
++ Launch OMNet++ IDE and set the workspace to the directory where packages have been downloaded in the previous step
++ Import  `INET`,`NeSTiNg `,and `PATS` packages into your workspace.
+    * `File -> Import`
+    * select `General>Existing Projects into Workspace option `and `Next>`
+    *  under `Select root directory` add your previously chosen workspace directory
+    * select `inet`, `nesting` and `ptas` projects and `Finish`
++ The three projects should appear in the Project Explorer
 
 ## Build and run

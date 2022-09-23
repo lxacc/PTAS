@@ -49,3 +49,15 @@ The current version of the PTAS module has been tested with OMNeT++ version 5.5.
 + The three projects should appear in the Project Explorer
 
 ## Build and run
+
+### Build
++ First, right click ptas project and click on `Properties`
++ Under `Project References`, select `inet` and `nesting`, Apply and Close (Important)
++ Each project can be set to release or debug build by right click and `Build Configurations -> Set Active`
++ Right click each project (in the order `inet, nesting, ptas`) and Build Project      
++ You can now run the simulation  
+---
+### Run simulation
++ Navigate into `ptas > simulations` in the project explorer
++ Right-click `paper_test_flow24_ptas_7hop.ini` and choose `Run As` (or `Debug As` depending on the build configuration) OMNeT++ Simulation
+

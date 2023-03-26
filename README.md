@@ -14,7 +14,7 @@ The current version of the PTAS module has been tested with OMNeT++ version 5.5.
 
 ## Getting Started
 + Download and install OMNeT++ version 5.5.1 at https://omnetpp.org/ .
-+ Clone and unzip nesting fllow the instructions at https://gitlab.com/ipvs/nesting/-/blob/master/README.md.
++ Clone and unzip nesting follow the instructions at https://gitlab.com/ipvs/nesting/-/blob/master/README.md.
 
 ```
   $ git clone https://gitlab.com/ipvs/nesting.git

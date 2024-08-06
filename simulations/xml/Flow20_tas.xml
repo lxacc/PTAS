@@ -16,7 +16,7 @@
 		<cycle>1000us</cycle>
 		<entry>
 			<start>0us</start>
-			<queue>7</queue>
+			<queue>6</queue>
 			<dest>00:00:00:00:01:02</dest>
 			<size>95B</size>
 			<burst>2</burst>
@@ -27,7 +27,7 @@
 		<cycle>1000us</cycle>
 		<entry>
 			<start>0us</start>
-			<queue>7</queue>
+			<queue>5</queue>
 			<dest>00:00:00:00:01:03</dest>
 			<size>95B</size>
 			<burst>2</burst>
@@ -38,18 +38,18 @@
 		<cycle>1000us</cycle>
 		<entry>
 			<start>0us</start>
-			<queue>7</queue>
+			<queue>4</queue>
 			<dest>00:00:00:00:01:04</dest>
-			<size>95B</size>
+			<size>220B</size>
 			<burst>2</burst>
 			<flowId>4</flowId>
 		</entry>
-	</host>	
+	</host>
 	<host name="robotController5">
 		<cycle>1000us</cycle>
 		<entry>
 			<start>0us</start>
-			<queue>7</queue>
+			<queue>3</queue>
 			<dest>00:00:00:00:01:05</dest>
 			<size>220B</size>
 			<burst>2</burst>
@@ -60,7 +60,7 @@
 		<cycle>1000us</cycle>
 		<entry>
 			<start>0us</start>
-			<queue>7</queue>
+			<queue>2</queue>
 			<dest>00:00:00:00:01:06</dest>
 			<size>220B</size>
 			<burst>2</burst>
@@ -71,10 +71,10 @@
 		<cycle>1000us</cycle>
 		<entry>
 			<start>0us</start>
-			<queue>7</queue>
+			<queue>1</queue>
 			<dest>00:00:00:00:01:07</dest>
-			<size>220B</size>
-			<burst>2</burst>
+			<size>470B</size>
+			<burst>3</burst>
 			<flowId>7</flowId>
 		</entry>
 	</host>
@@ -84,8 +84,8 @@
 			<start>0us</start>
 			<queue>7</queue>
 			<dest>00:00:00:00:01:08</dest>
-			<size>220B</size>
-			<burst>2</burst>
+			<size>470B</size>
+			<burst>3</burst>
 			<flowId>8</flowId>
 		</entry>
 	</host>
@@ -93,7 +93,7 @@
 		<cycle>1000us</cycle>
 		<entry>
 			<start>0us</start>
-			<queue>7</queue>
+			<queue>6</queue>
 			<dest>00:00:00:00:01:09</dest>
 			<size>470B</size>
 			<burst>3</burst>
@@ -104,10 +104,10 @@
 		<cycle>1000us</cycle>
 		<entry>
 			<start>0us</start>
-			<queue>7</queue>
+			<queue>5</queue>
 			<dest>00:00:00:00:01:10</dest>
 			<size>470B</size>
-			<burst>3</burst>
+			<burst>4</burst>
 			<flowId>10</flowId>
 		</entry>
 	</host>
@@ -115,10 +115,10 @@
 		<cycle>1000us</cycle>
 		<entry>
 			<start>0us</start>
-			<queue>7</queue>
+			<queue>4</queue>
 			<dest>00:00:00:00:01:11</dest>
 			<size>470B</size>
-			<burst>3</burst>
+			<burst>4</burst>
 			<flowId>11</flowId>
 		</entry>
 	</host>
@@ -126,21 +126,21 @@
 		<cycle>1000us</cycle>
 		<entry>
 			<start>0us</start>
-			<queue>7</queue>
+			<queue>3</queue>
 			<dest>00:00:00:00:01:12</dest>
 			<size>470B</size>
-			<burst>3</burst>
+			<burst>4</burst>
 			<flowId>12</flowId>
 		</entry>
 	</host>	
-	<host name="robotController13">
+		<host name="robotController13">
 		<cycle>1000us</cycle>
 		<entry>
 			<start>0us</start>
-			<queue>7</queue>
+			<queue>2</queue>
 			<dest>00:00:00:00:01:13</dest>
-			<size>470B</size>
-			<burst>4</burst>
+			<size>970B</size>
+			<burst>3</burst>
 			<flowId>13</flowId>
 		</entry>
 	</host>
@@ -148,10 +148,10 @@
 		<cycle>1000us</cycle>
 		<entry>
 			<start>0us</start>
-			<queue>7</queue>
+			<queue>1</queue>
 			<dest>00:00:00:00:01:14</dest>
-			<size>470B</size>
-			<burst>4</burst>
+			<size>970B</size>
+			<burst>3</burst>
 			<flowId>14</flowId>
 		</entry>
 	</host>
@@ -161,8 +161,8 @@
 			<start>0us</start>
 			<queue>7</queue>
 			<dest>00:00:00:00:01:15</dest>
-			<size>470B</size>
-			<burst>4</burst>
+			<size>970B</size>
+			<burst>3</burst>
 			<flowId>15</flowId>
 		</entry>
 	</host>
@@ -170,10 +170,10 @@
 		<cycle>1000us</cycle>
 		<entry>
 			<start>0us</start>
-			<queue>7</queue>
+			<queue>6</queue>
 			<dest>00:00:00:00:01:16</dest>
 			<size>970B</size>
-			<burst>3</burst>
+			<burst>4</burst>
 			<flowId>16</flowId>
 		</entry>
 	</host>
@@ -181,21 +181,21 @@
 		<cycle>1000us</cycle>
 		<entry>
 			<start>0us</start>
-			<queue>7</queue>
+			<queue>5</queue>
 			<dest>00:00:00:00:01:17</dest>
 			<size>970B</size>
-			<burst>3</burst>
+			<burst>4</burst>
 			<flowId>17</flowId>
 		</entry>
-	</host>	
+	</host>
 	<host name="robotController18">
 		<cycle>1000us</cycle>
 		<entry>
 			<start>0us</start>
-			<queue>7</queue>
+			<queue>4</queue>
 			<dest>00:00:00:00:01:18</dest>
 			<size>970B</size>
-			<burst>3</burst>
+			<burst>4</burst>
 			<flowId>18</flowId>
 		</entry>
 	</host>
@@ -203,10 +203,10 @@
 		<cycle>1000us</cycle>
 		<entry>
 			<start>0us</start>
-			<queue>7</queue>
+			<queue>3</queue>
 			<dest>00:00:00:00:01:19</dest>
-			<size>970B</size>
-			<burst>4</burst>
+			<size>1470B</size>
+			<burst>5</burst>
 			<flowId>19</flowId>
 		</entry>
 	</host>
@@ -214,59 +214,14 @@
 		<cycle>1000us</cycle>
 		<entry>
 			<start>0us</start>
-			<queue>7</queue>
+			<queue>2</queue>
 			<dest>00:00:00:00:01:20</dest>
-			<size>970B</size>
-			<burst>4</burst>
+			<size>1470B</size>
+			<burst>5</burst>
 			<flowId>20</flowId>
 		</entry>
 	</host>
-	<host name="robotController21">
-		<cycle>1000us</cycle>
-		<entry>
-			<start>0us</start>
-			<queue>7</queue>
-			<dest>00:00:00:00:01:21</dest>
-			<size>970B</size>
-			<burst>4</burst>
-			<flowId>21</flowId>
-		</entry>
-	</host>
-	<host name="robotController22">
-		<cycle>1000us</cycle>
-		<entry>
-			<start>0us</start>
-			<queue>7</queue>
-			<dest>00:00:00:00:01:22</dest>
-			<size>1470B</size>
-			<burst>5</burst>
-			<flowId>22</flowId>
-		</entry>
-	</host>
-	<host name="robotController23">
-		<cycle>1000us</cycle>
-		<entry>
-			<start>0us</start>
-			<queue>7</queue>
-			<dest>00:00:00:00:01:23</dest>
-			<size>1470B</size>
-			<burst>5</burst>
-			<flowId>23</flowId>
-		</entry>
-	</host>
-	<host name="robotController24">
-		<cycle>1000us</cycle>
-		<entry>
-			<start>0us</start>
-			<queue>7</queue>
-			<dest>00:00:00:00:01:24</dest>
-			<size>1470B</size>
-			<burst>5</burst>
-			<flowId>24</flowId>
-		</entry>
-	</host>		
-	
-	
+
 	<switch name="switchA">
 		<port id="24">
 			<schedule cycleTime="1000us">
@@ -277,103 +232,86 @@
 				<entry>
 					<length>2us</length>
 					<bitvector>10000000</bitvector>
-				</entry>
+				</entry>				
 				<entry>
 					<length>2us</length>
-					<bitvector>10000000</bitvector>
-				</entry>
+					<bitvector>01000000</bitvector>
+				</entry>				
 				<entry>
 					<length>2us</length>
-					<bitvector>10000000</bitvector>
-				</entry>
-				<entry>
-					<length>2us</length>
-					<bitvector>10000000</bitvector>
+					<bitvector>00100000</bitvector>
 				</entry>				
 				<entry>
 					<length>4us</length>
-					<bitvector>10000000</bitvector>
+					<bitvector>00010000</bitvector>
+				</entry>
+				<entry>
+					<length>4us</length>
+					<bitvector>00001000</bitvector>
 				</entry>				
 				<entry>
 					<length>4us</length>
-					<bitvector>10000000</bitvector>
-				</entry>			
+					<bitvector>00000100</bitvector>
+				</entry>				
 				<entry>
-					<length>4us</length>
-					<bitvector>10000000</bitvector>
+					<length>13us</length>
+					<bitvector>00000010</bitvector>
 				</entry>
 				<entry>
-					<length>4us</length>
+					<length>13us</length>
 					<bitvector>10000000</bitvector>
 				</entry>				
 				<entry>
 					<length>13us</length>
-					<bitvector>10000000</bitvector>
-				</entry>
-				<entry>
-					<length>13us</length>
-					<bitvector>10000000</bitvector>
-				</entry>
-				<entry>
-					<length>13us</length>
-					<bitvector>10000000</bitvector>
-				</entry>
-				<entry>
-					<length>13us</length>
-					<bitvector>10000000</bitvector>
-				</entry>			
+					<bitvector>01000000</bitvector>
+				</entry>				
 				<entry>
 					<length>17us</length>
-					<bitvector>10000000</bitvector>
+					<bitvector>00100000</bitvector>
+				</entry>				
+				<entry>
+					<length>17us</length>
+					<bitvector>00010000</bitvector>
 				</entry>
 				<entry>
 					<length>17us</length>
-					<bitvector>10000000</bitvector>
-				</entry>								
-				<entry>
-					<length>17us</length>
-					<bitvector>10000000</bitvector>
-				</entry>
+					<bitvector>00001000</bitvector>
+				</entry>				
 				<entry>
 					<length>25us</length>
-					<bitvector>10000000</bitvector>
+					<bitvector>00000100</bitvector>
+				</entry>				
+				<entry>
+					<length>35us</length>
+					<bitvector>00000010</bitvector>
 				</entry>
 				<entry>
-					<length>25us</length>
-					<bitvector>10000000</bitvector>
-				</entry>
-				<entry>
-					<length>25us</length>
+					<length>35us</length>
 					<bitvector>10000000</bitvector>
 				</entry>				
 				<entry>
-					<length>33us</length>
-					<bitvector>10000000</bitvector>
-				</entry>			
-				<entry>
-					<length>33us</length>
-					<bitvector>10000000</bitvector>
-				</entry>
-				<entry>
-					<length>33us</length>
-					<bitvector>10000000</bitvector>
+					<length>43us</length>
+					<bitvector>01000000</bitvector>
 				</entry>				
 				<entry>
-					<length>61us</length>
-					<bitvector>10000000</bitvector>
+					<length>43us</length>
+					<bitvector>00100000</bitvector>
+				</entry>				
+				<entry>
+					<length>43us</length>
+					<bitvector>00010000</bitvector>
 				</entry>
 				<entry>
-					<length>61us</length>
-					<bitvector>10000000</bitvector>
-				</entry>
+					<length>71us</length>
+					<bitvector>00001000</bitvector>
+				</entry>				
 				<entry>
-					<length>61us</length>
-					<bitvector>10000000</bitvector>
-				</entry>
-
+					<length>71us</length>
+					<bitvector>00000100</bitvector>
+				</entry>				
 				<entry>
-					<length>510us</length>
-					<bitvector>01111111</bitvector>
+					<length>520us</length>
+					<bitvector>00000001</bitvector>
 				</entry>								
 			</schedule>
 		</port>
@@ -383,15 +321,15 @@
 			<schedule cycleTime="1000us">
 				<entry>
 					<length>12us</length>
-					<bitvector>01111111</bitvector>
+					<bitvector>00000001</bitvector>
 				</entry>
 				<entry>
-					<length>495us</length>
-					<bitvector>10000000</bitvector>
+					<length>566us</length>
+					<bitvector>11111110</bitvector>
 				</entry>
 				<entry>
-					<length>493us</length>
-					<bitvector>01111111</bitvector>
+					<length>422us</length>
+					<bitvector>00000001</bitvector>
 				</entry>
 			</schedule>
 		</port>
@@ -401,15 +339,15 @@
 			<schedule cycleTime="1000us">
 				<entry>
 					<length>18us</length>
-					<bitvector>01111111</bitvector>
+					<bitvector>00000001</bitvector>
 				</entry>
 				<entry>
-					<length>507us</length>
-					<bitvector>10000000</bitvector>
+					<length>578us</length>
+					<bitvector>11111110</bitvector>
 				</entry>
 				<entry>
-					<length>475us</length>
-					<bitvector>01111111</bitvector>
+					<length>404us</length>
+					<bitvector>00000001</bitvector>
 				</entry>
 			</schedule>
 		</port>
@@ -419,15 +357,15 @@
 			<schedule cycleTime="1000us">
 				<entry>
 					<length>24us</length>
-					<bitvector>01111111</bitvector>
+					<bitvector>00000001</bitvector>
 				</entry>
 				<entry>
-					<length>517us</length>
-					<bitvector>10000000</bitvector>
+					<length>590us</length>
+					<bitvector>11111110</bitvector>
 				</entry>
 				<entry>
-					<length>459us</length>
-					<bitvector>01111111</bitvector>
+					<length>386us</length>
+					<bitvector>00000001</bitvector>
 				</entry>
 			</schedule>
 		</port>
@@ -437,15 +375,15 @@
 			<schedule cycleTime="1000us">
 				<entry>
 					<length>30us</length>
-					<bitvector>01111111</bitvector>
+					<bitvector>00000001</bitvector>
 				</entry>
 				<entry>
-					<length>528us</length>
-					<bitvector>10000000</bitvector>
+					<length>602us</length>
+					<bitvector>11111110</bitvector>
 				</entry>
 				<entry>
-					<length>442us</length>
-					<bitvector>01111111</bitvector>
+					<length>368us</length>
+					<bitvector>00000001</bitvector>
 				</entry>
 			</schedule>
 		</port>

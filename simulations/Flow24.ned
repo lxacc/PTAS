@@ -23,7 +23,7 @@ import pifo.pifo.node.ethernet.VlanEtherSwitchPreemptable;
 
 network Flow24
 {
-    @display("bgb=3297.51,1887.8401");
+    @display("bgb=4122.1235,2207.5437");
     types:
         channel C extends DatarateChannel
         {
@@ -33,213 +33,213 @@ network Flow24
     submodules:
         switchA: VlanEtherSwitchPreemptable {
             parameters:
-                @display("p=817.01996,654.07495");
+                @display("p=949.0375,598.3063");
             gates:
                 ethg[25];
         }
         switchB: VlanEtherSwitchPreemptable {
             parameters:
-                @display("p=1105.38,425.385");
+                @display("p=1369.915,350.73126");
             gates:
                 ethg[3];
         }
         switchC: VlanEtherSwitchPreemptable {
             parameters:
-                @display("p=1530.765,152.145");
+                @display("p=1704.1412,202.18625");
             gates:
                 ethg[3];
         }
         switchD: VlanEtherSwitchPreemptable {
             parameters:
-                @display("p=2130.03,152.145");
+                @display("p=2166.2812,202.18625");
             gates:
                 ethg[3];
-        }        
+        }
         switchE: VlanEtherSwitchPreemptable {
             parameters:
-                @display("p=2747.925,152.145");
+                @display("p=2583.0325,288.8375");
             gates:
                 ethg[3];
         }
         switchF: VlanEtherSwitchPreemptable {
             parameters:
-                @display("p=2747.925,515.43");
+                @display("p=2888.375,598.3063");
             gates:
                 ethg[26];
         }
         switchG: VlanEtherSwitchPreemptable {
             parameters:
-                @display("p=2130.03,465.75003");
+                @display("p=2166.2812,598.3063");
             gates:
                 ethg[2];
         }
-        
+
         workstation1: VlanEtherHostQ {
-            @display("p=1105.38,155.25");
+            @display("p=1369.915,717.9675");
         }
         backupServer: VlanEtherHostQ {
-            @display("p=3123.6301,155.25");
+            @display("p=3400.03,602.4325");
         }
 
 
 
         robotController1: VlanEtherHostSched {
-            @display("p=794.88,117.990005");
+            @display("p=251.70125,1184.2338");
         }
         robotController2: VlanEtherHostSched {
-            @display("p=515.43,117.990005");
+            @display("p=474.51874,1184.2338");
         }
         robotController3: VlanEtherHostSched {
-            @display("p=239.085,117.990005");
+            @display("p=730.34625,1184.2338");
         }
         robotController4: VlanEtherHostSched {
-            @display("p=714.15,326.02502");
+            @display("p=977.92126,1184.2338");
         }
         robotController5: VlanEtherHostSched {
-            @display("p=512.325,326.02502");
+            @display("p=1233.7488,1225.4962");
         }
         robotController6: VlanEtherHostSched {
-            @display("p=239.085,326.02502");
+            @display("p=1600.985,1225.4962");
         }
         robotController7: VlanEtherHostSched {
-            @display("p=487.48502,537.16504");
+            @display("p=251.70125,1448.3137");
         }
         robotController8: VlanEtherHostSched {
-            @display("p=211.14,537.16504");
+            @display("p=524.03375,1448.3137");
         }
         robotController9: VlanEtherHostSched {
-            @display("p=211.14,723.465");
+            @display("p=759.23,1448.3137");
         }
         robotController10: VlanEtherHostSched {
-            @display("p=211.14,915.97504");
+            @display("p=1006.805,1477.1975");
         }
         robotController11: VlanEtherHostSched {
-            @display("p=211.14,1114.6951");
+            @display("p=1262.6324,1477.1975");
         }
         robotController12: VlanEtherHostSched {
-            @display("p=211.14,1304.1001");
+            @display("p=1600.985,1477.1975");
         }
         robotController13: VlanEtherHostSched {
-            @display("p=593.055,1304.1001");
+            @display("p=251.70125,1704.1412");
         }
         robotController14: VlanEtherHostSched {
-            @display("p=915.97504,1304.1001");
+            @display("p=524.03375,1704.1412");
         }
         robotController15: VlanEtherHostSched {
-            @display("p=211.14,1505.925");
+            @display("p=779.86127,1704.1412");
         }
         robotController16: VlanEtherHostSched {
-            @display("p=589.95,1505.925");
+            @display("p=1043.9413,1704.1412");
         }
         robotController17: VlanEtherHostSched {
-            @display("p=915.97504,1505.925");
+            @display("p=1303.895,1704.1412");
         }
         robotController18: VlanEtherHostSched {
-            @display("p=1226.4751,1505.925");
+            @display("p=1600.985,1704.1412");
         }
         robotController19: VlanEtherHostSched {
-            @display("p=189.405,1723.275");
+            @display("p=284.71124,1980.6");
         }
         robotController20: VlanEtherHostSched {
-            @display("p=444.015,1723.275");
+            @display("p=528.16,1980.6");
         }
         robotController21: VlanEtherHostSched {
-            @display("p=673.78503,1648.755");
+            @display("p=779.86127,1980.6");
         }
         robotController22: VlanEtherHostSched {
-            @display("p=915.97504,1723.275");
+            @display("p=1043.9413,1992.9788");
         }
         robotController23: VlanEtherHostSched {
-            @display("p=1142.64,1670.4901");
+            @display("p=1303.895,1980.6");
         }
         robotController24: VlanEtherHostSched {
-            @display("p=1347.5701,1723.275");
+            @display("p=1600.985,1980.6");
         }
 
 
 
         roboticArm1: VlanEtherHostQ {
-            @display("p=1800.9,1061.91");
+            @display("p=2261.185,1332.7788");
         }
         roboticArm2: VlanEtherHostQ {
-            @display("p=2061.72,1061.91");
+            @display("p=2587.1587,1332.7788");
         }
         roboticArm3: VlanEtherHostQ {
-            @display("p=2285.28,1061.91");
+            @display("p=2875.9963,1345.1575");
         }
         roboticArm4: VlanEtherHostQ {
-            @display("p=2527.47,1061.91");
+            @display("p=3193.7175,1345.1575");
         }
         roboticArm5: VlanEtherHostQ {
-            @display("p=2844.1802,1061.91");
+            @display("p=3511.4387,1345.1575");
         }
         roboticArm6: VlanEtherHostQ {
-            @display("p=3123.6301,1061.91");
+            @display("p=3792.0237,1345.1575");
         }
         roboticArm7: VlanEtherHostQ {
-            @display("p=1800.9,1282.365");
+            @display("p=2261.185,1551.47");
         }
         roboticArm8: VlanEtherHostQ {
-            @display("p=2058.615,1279.26");
+            @display("p=2583.0325,1551.47");
         }
         roboticArm9: VlanEtherHostQ {
-            @display("p=2285.28,1279.26");
+            @display("p=2875.9963,1563.8488");
         }
         roboticArm10: VlanEtherHostQ {
-            @display("p=2496.4202,1279.26");
+            @display("p=3164.8337,1563.8488");
         }
         roboticArm11: VlanEtherHostQ {
-            @display("p=2844.1802,1257.525");
+            @display("p=3511.4387,1539.0913");
         }
         roboticArm12: VlanEtherHostQ {
-            @display("p=3123.6301,1257.525");
+            @display("p=3792.0237,1539.0913");
         }
         roboticArm13: VlanEtherHostQ {
-            @display("p=1800.9,1481.0851");
+            @display("p=2261.185,1749.53");
         }
         roboticArm14: VlanEtherHostQ {
-            @display("p=2058.615,1481.0851");
+            @display("p=2583.0325,1749.53");
         }
         roboticArm15: VlanEtherHostQ {
-            @display("p=2285.28,1481.0851");
+            @display("p=2875.9963,1761.9088");
         }
         roboticArm16: VlanEtherHostQ {
-            @display("p=2496.4202,1481.0851");
+            @display("p=3164.8337,1761.9088");
         }
         roboticArm17: VlanEtherHostQ {
-            @display("p=2844.1802,1481.0851");
+            @display("p=3511.4387,1761.9088");
         }
         roboticArm18: VlanEtherHostQ {
-            @display("p=3123.6301,1481.0851");
+            @display("p=3792.0237,1761.9088");
         }
         roboticArm19: VlanEtherHostQ {
-            @display("p=1782.27,1723.275");
+            @display("p=2240.5537,1992.9788");
         }
         roboticArm20: VlanEtherHostQ {
-            @display("p=2027.5651,1710.8551");
+            @display("p=2554.1487,1980.6");
         }
         roboticArm21: VlanEtherHostQ {
-            @display("p=2297.7002,1710.8551");
+            @display("p=2888.375,1992.9788");
         }
         roboticArm22: VlanEtherHostQ {
-            @display("p=2515.05,1710.8551");
+            @display("p=3181.3389,1992.9788");
         }
         roboticArm23: VlanEtherHostQ {
-            @display("p=2825.55,1710.8551");
+            @display("p=3490.8076,1992.9788");
         }
         roboticArm24: VlanEtherHostQ {
-            @display("p=3061.53,1710.8551");
+            @display("p=3726.0037,1992.9788");
         }
 
 
         workstation2: VlanEtherHostQ {
-            @display("p=1530.765,515.43");
+            @display("p=1704.1412,602.4325");
         }
         workstation3: VlanEtherHostQ {
-            @display("p=1865.0651,722.09375");
+            @display("p=2166.2812,924.28");
         }
         workstation4: VlanEtherHostQ {
-            @display("p=2455.1187,400.24625");
+            @display("p=2587.1587,602.4325");
         }
 
     connections:

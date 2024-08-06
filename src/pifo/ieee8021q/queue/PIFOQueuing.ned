@@ -20,11 +20,12 @@ import pifo.pifo.ieee8021q.queue.framePreemption.PIFOLengthAwareQueue;
 import pifo.pifo.ieee8021q.queue.framePreemption.PIFOQueue;
 import pifo.pifo.ieee8021q.queue.framePreemption.IPreemptableQueue;
 import pifo.pifo.ieee8021q.queue.gating.PIFOGateController;
-import nesting.ieee8021q.queue.gating.GateController;
+//import nesting.ieee8021q.queue.gating.GateController;
 import nesting.ieee8021q.queue.gating.TransmissionGate;
 import nesting.ieee8021q.queue.transmissionSelectionAlgorithms.TSAlgorithm;
-import nesting.ieee8021q.queue.QueuingFrames;
+//import pifo.pifo.ieee8021q.queue.PIFOQueuingFrames;
 import nesting.ieee8021q.queue.TransmissionSelection;
+//import nesting.ieee8021q.queue.QueuingFrames;
 //
 // This module implements a queuing network providing scheduling of congested
 // packets for a given output port according to the IEEE802.1Q standard,
@@ -46,7 +47,7 @@ module PIFOQueuing like IOutputQueue
         input in;
         output out;
     submodules:
-        queuingFrames: QueuingFrames {
+        queuingFrames: PIFOQueuingFrames {
             @display("p=289,38");
         }
 

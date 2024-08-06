@@ -198,9 +198,9 @@
 	</filteringDatabase>
 	<filteringDatabase id="switchG">
 	    <static>
-	        <forward>
-	        	<individualAddress macAddress="00-00-00-00-02-02" port="1" />
-	        </forward>
+        	<forward>
+         		<individualAddress macAddress="00-00-00-00-02-02" port="1" />
+        	</forward>
 	    </static>
 	</filteringDatabase>
 </filteringDatabases>

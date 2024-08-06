@@ -64,7 +64,9 @@ The current version of the PTAS module has been tested with OMNeT++ version 5.5.
 + After finishing the simulation, find the statistics file in `result-dir` and export the end-to-end delay data. These data are the source for the figures in the paper
 
 ### Change parameters
-+ [Flow24.ned](https://github.com/lxacc/PTAS/blob/main/simulations/Flow24.ned) is the topology used for simulation. In the topology, `RobotController` is the source of time-triggered flows, and `RobotArm` is the destination. 24 RobotControllers are set to simulate a multi-access scenario with massive concurrent flows
++ [Flow24.ned](https://github.com/lxacc/PTAS/blob/main/simulations/Flow24.ned) is the topology used for simulation, which is shown below
+![Image text](https://github.com/lxacc/PTAS/blob/main/img/topo.png)
++ In the topology, RobotController is the source of time-triggered flows, and RoboticArm is the destination. 24 RobotControllers are set to simulate a multi-access scenario with massive concurrent flows
 + If a new topology is needed, please modify `Flow24.ned`
 + [paper_test_ptas_7hop.ini](https://github.com/lxacc/PTAS/blob/main/simulations/paper_test_ptas_7hop.ini), [paper_test_spq_7hop.ini](https://github.com/lxacc/PTAS/blob/main/simulations/paper_test_spq_7hop.ini), and [paper_test_tas_7hop.ini](https://github.com/lxacc/PTAS/blob/main/simulations/paper_test_tas_7hop.ini) are the configurations of the proposed PTAS and the benchmarks
 + In `simulations/xml`, there are flow and gate configurations in PTAS, TAS, and SPQ with 4, 8, 12, 16, 20, and 24 flows. Each flow is set with the following parameters
